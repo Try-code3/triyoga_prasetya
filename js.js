@@ -11,3 +11,15 @@ function typingEffect() {
 
 document.querySelector(".header h1").innerHTML = "";
 typingEffect();
+
+function toggleMode() {
+  document.body.classList.toggle("dark");
+}
+
+function updateClock() {
+  const now = new Date();
+  document.getElementById("clock").innerHTML =
+    now.toLocaleTimeString();
+}
+
+setInterval(updateClock, 1000);

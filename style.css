@@ -66,3 +66,13 @@ section h3 {
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
+
+.dark {
+  background: black;
+}
+
+.dark .main-content {
+  background: white;
+  color: black;
+}
+
